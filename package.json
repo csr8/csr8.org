@@ -1,0 +1,21 @@
+{
+  "name": "csr8.org",
+  "version": "0.0.0",
+  "description": "CS R8 Preview",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "IEEE",
+    "Students",
+    "R8",
+    "Computer"
+  ],
+  "author": "David Dias",
+  "license": "MIT",
+  "dependencies": {
+    "node-static": "~0.7.0"
+  }
+}
