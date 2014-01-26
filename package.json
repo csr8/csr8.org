@@ -1,21 +1,27 @@
 {
   "name": "csr8.org",
   "version": "0.0.0",
-  "description": "CS R8 Preview",
-  "main": "index.js",
-  "scripts": {
-    "test": "node index.js",
-    "start": "node index.js"
-  },
-  "keywords": [
-    "IEEE",
-    "Students",
-    "R8",
-    "Computer"
-  ],
-  "author": "David Dias",
-  "license": "MIT",
+  "description": "CSR8 Webpage",
+  "main": "serverApp/index.js",
   "dependencies": {
-    "node-static": "~0.7.0"
-  }
+    "hapi": "~2.1.1",
+    "joi": "~2.3.1",
+    "bunyan": "~0.22.1"
+  },
+  "devDependencies": {
+    "nodemon": "~1.0.13",
+    "brfs": "0.0.8",
+    "colors": "~0.6.2",
+    "gaze": "~0.4.3",
+    "browserify": "~3.18.0",
+    "node-sass": "~0.8.1"
+  },
+  "scripts": {
+    "start": "node serverApp/index.js",
+    "mon": "node_modules/.bin/nodemon serverApp/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git@github.com:diasdavid/csr8.org.git",
+  "author": "David Dias <daviddias.p@gmail.com>",
+  "license": "MIT"
 }
