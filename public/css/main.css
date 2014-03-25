@@ -31,12 +31,12 @@
 body{
 	padding-top:80px;
 	font-size:12px;
-	color:#34495e;
+	color:#999;
 	background:#252525;
 }
 
 body h1,body h2,body h3,body h4,body.created{
-	font-family:"Fjalla One";
+	font-family:"Helvetica Neue";
 	font-weight:normal}
 
 body h5,body h6{
@@ -305,8 +305,9 @@ ul.social>li>a:hover{
 
 
 #about-us{
-	font-family:"Fjalla One";
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;	
 	font-size:23px;
+	color: #999;
 	line-height: 1.3em;
 }
 
