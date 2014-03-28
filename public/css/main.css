@@ -255,6 +255,7 @@ header .dropdown-menu:before{
 
 
 #footer{
+	font-size: 15px;
 	background:#333;
 	padding-top:15px;
 	padding-bottom:15px;
@@ -273,7 +274,7 @@ ul.social{
 	list-style:none;
 	margin:10px 0 0;
 	padding:0;
-	display:inline-block
+	
 }
 
 ul.social>li{
@@ -306,6 +307,7 @@ ul.social>li>a:hover{
 
 #about-us{
 	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;	
+	text-align: justify;
 	font-size:23px;
 	color: #999;
 	line-height: 1.3em;
