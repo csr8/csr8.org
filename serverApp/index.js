@@ -9,7 +9,8 @@ var opt =   {
     }
   };
 
-var server = module.exports = new Hapi.Server(process.env.PORT || 8080, opt);
+var server = module.exports =
+new Hapi.Server(parseInt(process.env.PORT) || 8080, opt);
 // server.settings.state.strictHeader = false;
 require('./routes');
 
